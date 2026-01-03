@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Registration</title>
+</head>
+<body>
+    <h2>Employee Registration</h2>
+    <form action="EmployeeServlet" method="post">
+        Name: <input type="text" name="name" required><br><br>
+        Username: <input type="text" name="username" required><br><br>
+        Password: <input type="password" name="password" required><br><br>
+        <input type="hidden" name="action" value="register">
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
